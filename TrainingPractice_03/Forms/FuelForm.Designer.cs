@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.updBtn = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.nameTxt = new System.Windows.Forms.TextBox();
             this.del_btn = new System.Windows.Forms.Button();
@@ -45,27 +44,11 @@
             this.label5 = new System.Windows.Forms.Label();
             this.id_guideTxt = new System.Windows.Forms.ComboBox();
             this.fuelBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.bD_GasStationDataSet = new TrainingPractice_03.BD_GasStationDataSet();
             this.clrFilter_btn = new System.Windows.Forms.Button();
             this.backBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fuelBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bD_GasStationDataSet)).BeginInit();
             this.SuspendLayout();
-            // 
-            // updBtn
-            // 
-            this.updBtn.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.updBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.updBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.updBtn.ForeColor = System.Drawing.Color.Black;
-            this.updBtn.Location = new System.Drawing.Point(455, 81);
-            this.updBtn.Name = "updBtn";
-            this.updBtn.Size = new System.Drawing.Size(216, 62);
-            this.updBtn.TabIndex = 17;
-            this.updBtn.Text = "Обновить";
-            this.updBtn.UseVisualStyleBackColor = false;
-            this.updBtn.Click += new System.EventHandler(this.updBtn_Click);
             // 
             // label2
             // 
@@ -88,7 +71,7 @@
             // 
             this.del_btn.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.del_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.del_btn.Location = new System.Drawing.Point(455, 217);
+            this.del_btn.Location = new System.Drawing.Point(455, 149);
             this.del_btn.Name = "del_btn";
             this.del_btn.Size = new System.Drawing.Size(216, 62);
             this.del_btn.TabIndex = 12;
@@ -100,7 +83,7 @@
             // 
             this.edit_btn.BackColor = System.Drawing.SystemColors.Info;
             this.edit_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.edit_btn.Location = new System.Drawing.Point(457, 149);
+            this.edit_btn.Location = new System.Drawing.Point(455, 81);
             this.edit_btn.Name = "edit_btn";
             this.edit_btn.Size = new System.Drawing.Size(216, 62);
             this.edit_btn.TabIndex = 11;
@@ -212,12 +195,6 @@
             // fuelBindingSource
             // 
             this.fuelBindingSource.DataMember = "fuel";
-            this.fuelBindingSource.DataSource = this.bD_GasStationDataSet;
-            // 
-            // bD_GasStationDataSet
-            // 
-            this.bD_GasStationDataSet.DataSetName = "BD_GasStationDataSet1";
-            this.bD_GasStationDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // clrFilter_btn
             // 
@@ -258,7 +235,6 @@
             this.Controls.Add(this.more_radio);
             this.Controls.Add(this.filter_txt);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.updBtn);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.nameTxt);
             this.Controls.Add(this.del_btn);
@@ -271,15 +247,12 @@
             this.Load += new System.EventHandler(this.FuelForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fuelBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bD_GasStationDataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button updBtn;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox nameTxt;
         private System.Windows.Forms.Button del_btn;
@@ -297,6 +270,5 @@
         private System.Windows.Forms.Button clrFilter_btn;
         private System.Windows.Forms.Button backBtn;
         private System.Windows.Forms.BindingSource fuelBindingSource;
-        private BD_GasStationDataSet bD_GasStationDataSet;
     }
 }

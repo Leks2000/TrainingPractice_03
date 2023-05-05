@@ -80,12 +80,7 @@ namespace TrainingPractice_03.Forms
             }
             reader.Close();
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            RefreshDgv();
-        }
-        
+       
         private void edit_btn_Click(object sender, EventArgs e)
         {
             var name = nameTxt.Text;

@@ -46,7 +46,7 @@
             this.контактыToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(590, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(290, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -82,7 +82,7 @@
             // 
             this.backBtn.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.backBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.backBtn.Location = new System.Drawing.Point(194, 150);
+            this.backBtn.Location = new System.Drawing.Point(12, 27);
             this.backBtn.Name = "backBtn";
             this.backBtn.Size = new System.Drawing.Size(157, 58);
             this.backBtn.TabIndex = 51;
@@ -90,15 +90,15 @@
             this.backBtn.UseVisualStyleBackColor = false;
             this.backBtn.Click += new System.EventHandler(this.backBtn_Click);
             // 
-            // StartForm
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(590, 356);
+            this.ClientSize = new System.Drawing.Size(290, 125);
             this.Controls.Add(this.backBtn);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "StartForm";
+            this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Главная";
             this.menuStrip1.ResumeLayout(false);

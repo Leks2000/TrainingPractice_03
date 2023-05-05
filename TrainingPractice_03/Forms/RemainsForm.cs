@@ -71,11 +71,6 @@ namespace TrainingPractice_03.Forms
             LoadComboBox();
             RefreshDgv();
         }
-
-        private void updBtn_Click(object sender, EventArgs e)
-        {
-            RefreshDgv();
-        }
         private void LoadComboBox()
         {
             dataGridView1.Rows.Clear();

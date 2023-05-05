@@ -25,11 +25,6 @@ namespace TrainingPractice_03.Forms
             System.Threading.Thread.CurrentThread.CurrentCulture = customCulture;
         }
 
-        private void updBtn_Click(object sender, EventArgs e)
-        {
-            RefreshDgv();
-        }
-
         private void add_btn_Click(object sender, EventArgs e)
         {
             _dataBase.openConnection();
