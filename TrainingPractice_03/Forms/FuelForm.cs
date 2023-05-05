@@ -97,7 +97,6 @@ namespace TrainingPractice_03.Forms
             dataGridView1.Columns.Add("fuel_name", "Название вида");
             dataGridView1.Columns.Add("price", "Цена");
             dataGridView1.Columns.Add("sup_id", "Код поставщика");
-            dataGridView1.AllowUserToAddRows = false;
         }
         private void LoadComboBox()
         {

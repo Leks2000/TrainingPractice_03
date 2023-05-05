@@ -48,7 +48,6 @@ namespace TrainingPractice_03.Forms
             dataGridView1.Columns.Add("remain_date", "Дата");
             dataGridView1.Columns.Add("vol_init", "Объём на начало дня (л)");
             dataGridView1.Columns.Add("vol_sold", "Объём продажи (л)");
-            dataGridView1.AllowUserToAddRows = false;
         }
         private void RefreshDgv()
         {

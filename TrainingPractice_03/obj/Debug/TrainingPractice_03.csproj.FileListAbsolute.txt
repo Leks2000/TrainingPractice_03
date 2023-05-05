@@ -59,3 +59,24 @@ F:\repos\Свой проекты\TrainingPractice_03\TrainingPractice_03-main\Tr
 F:\repos\Свой проекты\TrainingPractice_03\TrainingPractice_03-main\TrainingPractice_03\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
 F:\repos\Свой проекты\TrainingPractice_03\TrainingPractice_03-main\TrainingPractice_03\obj\Debug\TrainingPractice_03.csproj.CopyComplete
 F:\repos\Свой проекты\TrainingPractice_03\TrainingPractice_03-main\TrainingPractice_03\obj\Debug\TrainingPractice_03.MainForm.resources
+F:\Games\кулорд5колрдек\TrainingPractice_03\bin\Debug\TrainingPractice_03.exe.config
+F:\Games\кулорд5колрдек\TrainingPractice_03\bin\Debug\TrainingPractice_03.exe
+F:\Games\кулорд5колрдек\TrainingPractice_03\bin\Debug\TrainingPractice_03.pdb
+F:\Games\кулорд5колрдек\TrainingPractice_03\bin\Debug\EntityFramework.dll
+F:\Games\кулорд5колрдек\TrainingPractice_03\bin\Debug\EntityFramework.SqlServer.dll
+F:\Games\кулорд5колрдек\TrainingPractice_03\bin\Debug\EntityFramework.xml
+F:\Games\кулорд5колрдек\TrainingPractice_03\bin\Debug\EntityFramework.SqlServer.xml
+F:\Games\кулорд5колрдек\TrainingPractice_03\bin\Debug\ru\EntityFramework.resources.dll
+F:\Games\кулорд5колрдек\TrainingPractice_03\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+F:\Games\кулорд5колрдек\TrainingPractice_03\obj\Debug\TrainingPractice_03.csproj.AssemblyReference.cache
+F:\Games\кулорд5колрдек\TrainingPractice_03\obj\Debug\TrainingPractice_03.csproj.SuggestedBindingRedirects.cache
+F:\Games\кулорд5колрдек\TrainingPractice_03\obj\Debug\TrainingPractice_03.Forms.FuelForm.resources
+F:\Games\кулорд5колрдек\TrainingPractice_03\obj\Debug\TrainingPractice_03.Forms.GuideForm.resources
+F:\Games\кулорд5колрдек\TrainingPractice_03\obj\Debug\TrainingPractice_03.Forms.RemainsForm.resources
+F:\Games\кулорд5колрдек\TrainingPractice_03\obj\Debug\TrainingPractice_03.MainForm.resources
+F:\Games\кулорд5колрдек\TrainingPractice_03\obj\Debug\TrainingPractice_03.Properties.Resources.resources
+F:\Games\кулорд5колрдек\TrainingPractice_03\obj\Debug\TrainingPractice_03.csproj.GenerateResource.cache
+F:\Games\кулорд5колрдек\TrainingPractice_03\obj\Debug\TrainingPractice_03.csproj.CoreCompileInputs.cache
+F:\Games\кулорд5колрдек\TrainingPractice_03\obj\Debug\TrainingPractice_03.csproj.CopyComplete
+F:\Games\кулорд5колрдек\TrainingPractice_03\obj\Debug\TrainingPractice_03.exe
+F:\Games\кулорд5колрдек\TrainingPractice_03\obj\Debug\TrainingPractice_03.pdb
